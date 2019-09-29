@@ -1,0 +1,6 @@
+[submodule "OpenAPI.NET"]
+	path = OpenAPI.NET
+	url = https://github.com/Nepomuceno/OpenAPI.NET
+[submodule "OpenAPI.NET.OData"]
+	path = OpenAPI.NET.OData
+	url = https://github.com/Nepomuceno/OpenAPI.NET.OData

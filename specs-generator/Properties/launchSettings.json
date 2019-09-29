@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "specs-generator": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}

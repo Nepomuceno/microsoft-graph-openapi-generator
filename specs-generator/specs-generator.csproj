@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>specs_generator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OpenAPI.NET.OData\**" />
+    <Compile Remove="OpenAPI.NET\**" />
+    <EmbeddedResource Remove="OpenAPI.NET.OData\**" />
+    <EmbeddedResource Remove="OpenAPI.NET\**" />
+    <None Remove="OpenAPI.NET.OData\**" />
+    <None Remove="OpenAPI.NET\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPI.NET.OData\src\Microsoft.OpenApi.OData.Reader\Microsoft.OpenApi.OData.Reader.csproj" />
+  </ItemGroup>
+
+</Project>
